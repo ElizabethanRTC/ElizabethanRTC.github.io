@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Analysis</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">EL</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="temp.html">Temperature</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="humid.html">Humidity</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="cloudy.html">Cloudiness</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="windy.html">Wind Speed</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="compare.html">Comparisons</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="data.html">Data</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="row">
+    <div class="col-lg-2">
+     <div class="thumbnails">
+      <div class="text-center font-weight-bold" >Plots</div>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <a href="temp.html"> 
+            <img src="Temperature.png" alt="temperature thumbnail" class="img-thumbnail">
+          <div>Temperature</div>
+          </a>
+          </li>
+          <li class="list-group-item">
+            <a href="humid.html"> 
+            <img src="Humidity.png" alt="humidity thumbnail" class="img-thumbnail">
+          <div>Humidity</div>
+          </a>
+          </li>
+          <li class="list-group-item">
+            <a href="cloudy.html"> 
+            <img src="Cloudiness.png" alt="cloudiness thumbnail" class="img-thumbnail">
+          <div>Cloudiness</div>
+          </a>
+          </li>
+          <li class="list-group-item">
+            <a href="windy.html"> 
+            <img src="WindSpeed.png" alt="wind speed thumbnail" class="img-thumbnail">
+          <div>Wind Speed</div>
+          </a>
+          </li>
+          <li class="list-group-item">
+            <a href="compare.html"> 
+            <img src="SHHumid.png" alt="compare thumbnail" class="img-thumbnail">
+          <div>Comparison</div>
+          </a>
+          </li>
+          <li class="list-group-item">
+            <a href="data.html"> 
+            <img src="https://images.unsplash.com/photo-1555680510-34daedadbdb1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="data thumbnail" class="img-thumbnail">
+          <div>Data</div>
+          </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+      <div class="col-lg-10">
+      
+        <!-- <div class="col-lg-6">
+        </div> -->
+        <div class="container">
+          <div class="weather">
+            <h1 class="display-4">What's the Weather?</h1>
+            <p class="lead">Project by E. Labno</p>
+            <hr class="my-4">
+            <p>The closer to the equator we get the higher the temperature. Now what about clouds and the wind? The
+              purpose of this project is re-establish to relationship between latitude and temperature using data from
+              500 random cities throughout the world and also investigate if there are additional relationships between
+              humidity, cloudiness, wind speed and latitude. </p>
+          </div>
+        </div>
+
+        <div class="container">
+
+          <h3 class="text-center">Analysis</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img
+                  src="https://media.istockphoto.com/photos/summer-background-orange-sky-with-clouds-and-bright-sun-picture-id1226628621?b=1&k=20&m=1226628621&s=170667a&w=0&h=i8qwPWiDcYQEHcHCfm9ynhhcWSaw-0kjcIRsuSuNhFM="
+                  alt="warm sunset" class="img-thumbnail">
+              </div>
+              <div class="caption">
+                <h3>Temperature</h3>
+                <p><a href="temp.html" class="btn btn-primary" role="button">View Results</a> <a href="#"
+                    class="btn btn-default" role="button"></a></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img
+                  src="https://images.unsplash.com/reserve/SLErBhmTnePXNTLk33fw_DSCF3308.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  alt="condensation picture" class="img-thumbnail">
+              </div>
+              <div class="caption">
+                <h3>Humidity</h3>
+                <p><a href="humid.html" class="btn btn-primary" role="button">View Results</a> <a href="#"
+                    class="btn btn-default" role="button"></a></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img
+                  src="https://images.unsplash.com/photo-1498496294664-d9372eb521f3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2xvdWRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+                  alt="cloud picture" class="img-thumbnail">
+              </div>
+              <div class="caption">
+                <h3>Cloudiness</h3>
+                <p><a href="cloudy.html" class="btn btn-primary" role="button">View Results</a> <a href="#"
+                    class="btn btn-default" role="button"></a></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img
+                  src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                  alt="windy picture" class="img-thumbnail">
+              </div>
+              <div class="caption">
+                <h3>Wind_Speed</h3>
+                <p><a href="windy.html" class="btn btn-primary" role="button">View Results</a> <a href="#"
+                    class="btn btn-default" role="button"></a></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img
+                  src="https://images.unsplash.com/photo-1516706332927-bb3a20d62514?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                  alt="white and brown eggs picture" class="img-thumbnail">
+              </div>
+              <div class="caption">
+                <h3>Comparisons</h3>
+                <p><a href="compare.html" class="btn btn-primary" role="button">View Results</a> <a href="#"
+                    class="btn btn-default" role="button"></a></p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img
+                  src="https://images.unsplash.com/photo-1555680510-34daedadbdb1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                  alt="picture of data" class="img-thumbnail">
+              </div>
+              <div class="caption">
+                <h3>Data</h3>
+                <p><a href="data.html" class="btn btn-primary" role="button">View Results</a> <a href="#"
+                    class="btn btn-default" role="button"></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+          crossorigin="anonymous"></script>
+
+</body>
+
+</html>
